@@ -13,3 +13,19 @@ protected void onCreate(Bundle savedInstanceState) {
             e.printStackTrace();
         }
     }
+
+
+<com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_dialogue_zoom"
+        android:layout_width="@dimen/scale_350dp"
+        android:layout_height="@dimen/scale_350dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        fresco:placeholderImage="@drawable/block"
+        fresco:placeholderImageScaleType="fitXY"
+        fresco:roundAsCircle="true"
+        fresco:roundingBorderColor="@color/gray"
+        fresco:roundingBorderWidth="2dp" />
